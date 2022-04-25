@@ -1,5 +1,5 @@
 function criptografar(){
-	var texto = document.getElementById("input-text").value.toLowerCase();
+	var texto = document.getElementById("text").value.toLowerCase();
 	var criptado = texto.replace(/e/igm,"enter");
 	var criptado = criptado.replace(/o/igm,"ober");
 	var criptado= criptado.replace(/i/igm,"imes");
@@ -13,7 +13,7 @@ function criptografar(){
 	
 }
 function descriptografar(){
-	var texto = document.getElementById("input-text").value.toLowerCase();
+	var texto = document.getElementById("text").value.toLowerCase();
 	var criptado = texto.replace(/enter/igm,"e");
 	var criptado = criptado.replace(/ober/igm,"o");
 	var criptado = criptado.replace(/imes/igm,"i");
