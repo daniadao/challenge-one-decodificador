@@ -14,8 +14,9 @@ Desenvolver uma aplicação que criptografa textos, assim você poderá trocar m
 - Um botão que copie o texto criptografado/descriptografado para a área de transferência - ou seja, que tenha a mesma funcionalidade do `ctrl+C` ou da opção "copiar" do menu dos aplicativos.
 - Um rodapé com os dados da pessoa que desenvolveu o site!
 
-
-<img src="image/img-readme/incial.png" alt="tela incial"/>
+<div aling = "center">
+<img src="https://user-images.githubusercontent.com/60453201/165311092-4edaa315-bc80-4704-b83d-806ca273ab51.png"/>
+</div>
 
 
 
