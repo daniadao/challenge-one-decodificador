@@ -3,47 +3,51 @@
 	<head>
 		<meta charset = "UTF-8">
 		<title>Challenger One Oracle</title>
+		 <link rel="stylesheet" href="reset.css">
 		 <link rel="stylesheet" href="style.css">
 		 <script type ="text/javascript" src = "script.js"></script>
 		 <script src="https://kit.fontawesome.com/42f40f8bda.js" crossorigin="anonymous"></script>
 	</head>
 	<body>
-		<div class = "container">
-			<div class = "logo">
-				<a href = "http://alura.com.br">
-				<img class = "imglogo" src = "image/logo.png" >
-				</a>
-								
-				<h1 class = "title">Decodificador de Mensagem</h1>
-			</div>
-			
-			<div class = "conteiner-left">
-			
+		<header>
+		<div class = "caixa">
+			<h1 class="principal"><a href="https://alura.com.br"><img src="image/logo.png"></a>Decodificador de Mensagem</h1>
+		</div>
+		</header>	
+		<main>
+			<div class = "caixa-esquerda">
 				<textarea id = "text" name = "name" rows = "8" cols = "80">Digite aqui o texto</textarea>		
-				
+							
 			</div>
-			<div class = "conteiner-rigth">
+			
+			<div class = "caixa-direita">
 				<img src = "image/Hight-quality.png" id = "imgquality">	
-				<h1 id = "texto">Nenhuma mensagem foi encontrada</h1>
+				<h1 id = "texto">Nenhuma mensagem foi encontrada</h1>		
 				<textarea id = "texto2" name = "name" rows = "8" cols = "80">Digite um texto que você deseja criptografar ou descriptografar.</textarea>
-				<button type = "button" id = "btn-copiar" onclick = "copia()">Copiar</button>
+				<button type = "button" id = "btn-copiar" onclick = "copia()">Copiar</button>		
 			</div>
+
+			<div class = "mensagem">
+				<h1 class="aviso"><img src = "image/exclamation.png" id = "imgexclamation">Apenas letras minúsculas e sem acento</h1>
+			</div>	
+			
+			
 			<div class = "botao">
-				<img src = "image/exclamation.png" id = "imgexclamation">
-				<h1 class = "aviso"> Apenas letras minúsculas e sem acento.</h1>
 				<button type = "button" id = "btn-criptografar" onclick = "criptografar()">Criptografar</button>
-				<button type = "button" id = "btn-descriptografar" onclick = "descriptografar()">Descriptografar</button>
-			</div>
+				<button type = "button" id = "btn-descriptografar" onclick = "descriptografar()">Descriptografar</button>				
+			</div>	
+		</main>		
 		
 		<footer>
-			<div class  ="footer-content">
-				<p>Daniela Adão - 2022</p>
-            <div class ="social-list">
+			<div class ="social-list">
 				<a  href ="https://www.linkedin.com/in/daniela-adão-a521921a1" > <i class="fa-brands fa-linkedin-in"></i></a>
-                <a  href ="https://github.com/daniadao" > <i class="fa-brands fa-github"></i></a>
-             
-            </div>
-          </div>	
+				<a  href ="https://github.com/daniadao" > <i class="fa-brands fa-github"></i></a>
+				<a  href =" https://instagram.com/adao_daniela" ><i class="fa-brands fa-instagram"></i></a > 
+				<a  href =" https://facebook.com/daniela.adao.56"><i class="fa-brands fa-facebook"></i></a> 
+				<p class="footer-content">Daniela Adão - 2022</p>
+				 
+						
+			</div>
             
 		</footer>
 	
